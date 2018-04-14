@@ -1,100 +1,382 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head lang="en">
-<link href="default.css" type="text/css" rel="stylesheet" />
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
-<title>Kate's Cafe Menu</title>
-<div class="imgCenter"> <img src="img/kate_cafe.png" alt="Kate's Cafe logo" />
-</div>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet"> 
+
+    <title>Kate's Cafe</title>
+  </head>
+
 <body>
-<div id="container">
-  <div id="decorative">&nbsp;&nbsp;<br />
+  <div class="container-fluid">
+    <div class="row">
+      <h1>Kate's Cafe</h1>
+    </div>
+    <div class="row">
+      <blockquote class="blockquote">
+        <p class="mb-0">"First we eat, then we do everything else."</p>
+        <footer class="blockquote-footer">M.F.K. Fisher</footer>
+      </blockquote>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="row">
+          <h2>Breakfast Menu</h2>
+        </div>
+
+        <div class="row station-name">
+          <h3>Chef's Table</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>When you first come in, you'll be greeted by our chefs, happy to share their favorite dishes! Today they have for you:</p>
+        </div>
+        <div class="row dish">
+          <h4>Made-to-Order Omelet</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Choose your cheese and whatever filling you want</p>
+        </div>
+        <div class="row dish">
+          <h4>Bacon</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Crispy and fragrant</p>
+        </div>
+        <div class="row dish">
+          <h4>Hash Browns (vegetarian, dairy-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Freshly fried potatoes and onions</p>
+        </div>
+        <div class="row dish">
+          <h4>Pancakes (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Straight off the griddle</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Rooted</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>Up next, you'll find our vegan kitchen, cooking up a storm. Today, you'll be able to partake in:</p>
+        </div>
+        <div class="row dish">
+          <h4>Sweet Potatoes and Apples (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Sliced sweet potatoes and tender apples</p>
+        </div>
+        <div class="row dish">
+          <h4>Tofu Scramble (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Onions, peppers, and a touch of cumin terror</p>
+        </div>
+        <div class="row dish">
+          <h4>Broccolini (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Sauteed until tender and flavored with garlic</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Herb and Tomato</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>If neither of those strike your fancy, there's always pizza coming straight from the oven, located to the right of the Rooted station. Today, we've got these tasty pies by the fire:</p>
+        </div>
+        <div class="row dish">
+          <h4>This station does not serve breakfast.</h4>
+        </div>
+
+        <div class="row station-name">
+          <h3>Deep Bowl</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>There's always a couple of soups cooking, directly after the pizza station and just before the drinks. One will always be vegetarian. Today we've got:</p>
+        </div>
+        <div class="row dish">
+          <h4>Oatmeal (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Creamy and filling, with optional toppings</p>
+        </div>
+        <div class="row dish">
+          <h4>Cereal (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A variety of your childhood favorites!</p>
+        </div>
+
+      </div>
+
+      <div class="col-sm-4">
+        <div class="row">
+          <h2>Lunch Menu</h2>
+        </div>
+
+        <div class="row station-name">
+          <h3>Chef's Table</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>When you first come in, you'll be greeted by our chefs, happy to share their favorite dishes! Today they have for you:</p>
+        </div>
+        <div class="row dish">
+          <h4>Salt-Grilled Crab</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Just crab, salt, and a full feeling in your heart</p>
+        </div>
+        <div class="row dish">
+          <h4>Pork Carnitas (gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Shredded pork lightly seasoned with chili powder and cooked crisp</p>
+        </div>
+        <div class="row dish">
+          <h4>Red Beans and Rice (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Tender red beans, white rice all seasoned with fresh vegetables</p>
+        </div>
+        <div class="row dish">
+          <h4>Pepper Medley (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Three types of peppers cooked to perfection</p>
+        </div>
+        <div class="row dish">
+          <h4>Roasted Corn wtih Chili Butter (gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Just the right amount of char, the perfect kick, the taste of summer</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Rooted</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>Up next, you'll find our vegan kitchen, cooking up a storm. Today, you'll be able to partake in:</p>
+        </div>
+        <div class="row dish">
+          <h4>Jamaican Jerk Tofu (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Island spiced tofu with sauteed snap peas and peppers</p>
+        </div>
+        <div class="row dish">
+          <h4>Orange Glazed Carrots (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Sweet and tart</p>
+        </div>
+        <div class="row dish">
+          <h4>Quinoa (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Rich and nutty whole grains</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Herb and Tomato</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>If neither of those strike your fancy, there's always pizza coming straight from the oven, located to the right of the Rooted station. Today, we've got these tasty pies by the fire:</p>
+        </div>
+        <div class="row dish">
+          <h4>Cheese Pizza (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Traditional Cheese Pizza</p>
+        </div>
+        <div class="row dish">
+          <h4>Pepperoni Pizza</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Tangy sauce, melted mozzarella, and crisp pepperoni</p>
+        </div>
+        <div class="row dish">
+          <h4>Pesto Caprese (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Pesto, tomatoes, and fresh mozzarella</p>
+        </div>
+        <div class="row dish">
+          <h4>Meat Lover's Stromboli</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A classic meat-lover's stromboli</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Deep Bowl</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>There's always a couple of soups cooking, directly after the pizza station and just before the drinks. One will always be vegetarian. Today we've got:</p>
+        </div>
+        <div class="row dish">
+          <h4>Country Vegetable (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A medley of green beans, squash, and root vegetables that's perfect for bread-dipping</p>
+        </div>
+        <div class="row dish">
+          <h4>Beef Chili (gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A rich, spicy meat and bean delight</p>
+        </div>
+
+      </div>
+
+      <div class="col-sm-4">
+        <div class="row">
+          <h2>Dinner Menu</h2>
+        </div>
+
+        <div class="row station-name">
+          <h3>Chef's Table</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>When you first come in, you'll be greeted by our chefs, happy to share their favorite dishes! Today they have for you:</p>
+        </div>
+        <div class="row dish">
+          <h4>Baked Fish (dairy-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Tender and flaky salmon</p>
+        </div>
+        <div class="row dish">
+          <h4>Piperade with Penne (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Zucchini, Squash and Eggplant with Olives and Penne</p>
+        </div>
+        <div class="row dish">
+          <h4>Steamed Cauliflower (vegan)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Cauliflower steamed until soft, gently salted</p>
+        </div>
+        <div class="row dish">
+          <h4>Broccoli, Garlic and Lemon Pasta (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Garlic, lemon, parmesan cheese, and broccoli all on penne pasta.</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Rooted</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>Up next, you'll find our vegan kitchen, cooking up a storm. Today, you'll be able to partake in:</p>
+        </div>
+        <div class="row dish">
+          <h4>Crispy Baked Tofu (vegan)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Marinated in a sweet soy dressing and baked until crispy</p>
+        </div>
+        <div class="row dish">
+          <h4>Vegetable Stir Fry (vegan)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Tomatoes, peppers and onions</p>
+        </div>
+        <div class="row dish">
+          <h4>Szechuan-Style Eggplant (vegan)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Peppers, onions, eggplant and chili paste</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Herb and Tomato</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>If neither of those strike your fancy, there's always pizza coming straight from the oven, located to the right of the Rooted station. Today, we've got these tasty pies by the fire:</p>
+        </div>
+        <div class="row dish">
+          <h4>Cheese Pizza (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A classic cheesy delight!</p>
+        </div>
+        <div class="row dish">
+          <h4>Pepperoni Pizza</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A classic, cured meat pizza.</p>
+        </div>
+        <div class="row dish">
+          <h4>Anchovy Pineapple Pizza</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>For the adventurous soul.</p>
+        </div>
+        <div class="row dish">
+          <h4>Mac and Cheese Pizza (vegetarian)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>Pizza with macaroni and lots of cheese. A dash of honey mustard on top for good measure.
+</p>
+        </div>
+
+        <div class="row station-name">
+          <h3>Deep Bowl</h3>
+        </div>
+        <div class="row station-subheading">
+          <p>There's always a couple of soups cooking, directly after the pizza station and just before the drinks. One will always be vegetarian. Today we've got:</p>
+        </div>
+        <div class="row dish">
+          <h4>Country Vegetable (vegan, gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A medley of green beans, squash, and root vegetables that's perfect for bread-dipping</p>
+        </div>
+        <div class="row dish">
+          <h4>Beef Chili (gluten-free)</h4>
+        </div>
+        <div class="row dish-desc">
+          <p>A rich, spicy meat and bean delight</p>
+        </div>
+
+      </div>
+
+    </div>
   </div>
-  <div id="header">
-    <h1>Kate's Cafe</h1>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <h2>Map</h2>
+    </div>
+    <div class="row align-items-centered">
+      <a href="maps.html" title="Go to maps of service area and dining area - opens in a new window" target="_blank">Dining hall maps</a>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-sm-6 floor-plan-image">
+        <img src="img/Floor_Plan.png" class="img-responsive" alt="Cartoon map of food service area. Entering from the left of the picture, with the stations on your left, the first station is Chef's Table. Past that is the Rooted station, followed by Herb and Tomato, and finally Deep Bowl. Past this leads to the seating area, right along one of the long tables. There are two long tables running in parallel. Beneath that is a mezzanine with four square tables, accessed by a ramp to the far right."/>
+      </div>
+    </div>
   </div>
-  <div id="body">
-    <blockquote>&#8220;First we eat, then we do everything else.&#8221; -M.F.K. Fisher</blockquote>
-    <h2>Lunch Menu</h2>
-    <h3>Chef's Table</h3>
-    <p>When you first come in, you'll be greeted by our chefs, happy to share their favorite dishes!</p>
-    <p>Today, they have for you:</p>
-    <h4>Salt-Grilled Crab</h4>
-    <p>Just crab, salt, and a full feeling in your heart</p>
-    <h4>Pork Carnitas (gluten-free)</h4>
-    <p>Shredded pork lightly seasoned with chili powder and cooked crisp</p>
-    <h4>Red Beans and Rice (vegan, gluten-free)</h4>
-    <p>Tender red beans, white rice all seasoned with fresh vegetables</p>
-    <h4>Pepper Medley (vegan, gluten-free)</h4>
-    <p>Three types of peppers cooked to perfection</p>
-    <h4>Roasted Corn wtih Chili Butter (gluten-free)</h4>
-    <p>Just the right amount of char, the perfect kick, the taste of summer</p>
-    <!-- dl>
-      <dt><b>Pork Carnitas</b> (gluten-free) </dt>
-      <dd>Shredded pork lightly seasoned with chili powder and cooked crispy</dd>
-      <dt><b>Red Beans and Rice</b> (vegan, gluten-free)</dt>
-      <dd>Tender red beans, white rice all seasoned with fresh vegetables</dd>
-      <dt><b>Pepper Medley</b> (vegan, gluten-free)</dt>
-      <dd>Three types of peppers cooked to perfection</dd>
-      <dt><b>Roasted Corn wtih Chili Butter</b> (gluten-free)</dt>
-      <dd>Just the right amount of char, the perfect kick, the taste of summer</dd>
-    </dl> -->
-    <h3>Rooted</h3>
-    <p>Up next, you'll find our vegan kitchen, cooking up a storm.</p>
-    <p>Today, you'll be able to partake in:</p>
-    <h4>Jamaican Jerk Tofu (vegan, gluten-free)</h4>
-    <p>Island spiced tofu with sauteed snap peas and peppers</p>
-    <h4>Orange Glazed Carrots (vegan, gluten-free)</h4>
-    <p>Sweet and tart</p>
-    <h4>Quinoa (vegan, gluten-free)</h4>
-    <p>Rich and nutty whole grains</p>
-    <!-- <dl>
-      <dt><b>Jamaican Jerk Tofu</b> (vegan, gluten-free)</dt>
-      <dd>Island spiced tofu with sauteed snap peas and peppers</dd>
-      <dt><b>Orange Glazed Carrots</b> (vegan, gluten-free)</dt>
-      <dd>Sweet and tart</dd>
-      <dt><b>Quinoa</b> (vegan, gluten-free)</dt>
-      <dd>Rich and nutty whole grains</dd>
-    </dl> -->
-    <h3>Herb and Tomato</h3>
-    <p>If neither of those strike your fancy, there's always pizza coming straight from the oven, located to the right of the Rooted station.</p>
-    <p>Today, we've got these tasty pies by the fire:</p>
-    <h4>Cheese Pizza (vegetarian)</h4>
-    <p>Traditional Cheese Pizza</p>
-    <h4>Pepperoni Pizza</h4>
-    <p>Tangy sauce, melted mozzarella, and crisp pepperoni</p>
-    <h4>Pesto Caprese (vegetarian)</h4>
-    <p>Pesto, tomatoes, and fresh mozzarella</p>
-    <h4>Meat Lover's Stromboli</h4>
-    <p>A classic meat-lover's stromboli</p>
-    <!-- <dl>
-      <dt><b>Cheese Pizza</b> (vegetarian)</dt>
-      <dd>Traditional Cheese Pizza</dd>
-      <dt><b>Pepperoni Pizza</b></dt>
-      <dd>Tangy sauce, melted mozzarella, and crisp pepperoni</dd>
-      <dt><b>Pesto Caprese</b> (vegetarian)</dt>
-      <dd>Pesto, tomatoes, and fresh mozzarella</dd>
-      <dt><b>Meat Lover's Stromboli</b></dt>
-      <dd>A classic meat-lover's stromboli</dd>
-    </dl> -->
-    <h3>Deep Bowl</h3>
-    <p>There's always a couple of soups cooking, directly after the pizza station and just before the drinks. One will always be vegetarian.</p>
-    <p>Today we've got:</p>
-    <h4>Country Vegetable (vegan, gluten-free)</h4>
-    <p>A medley of green beans, squash, and root vegetables that's perfect for bread-dipping</p>
-    <h4>Beef Chili (gluten-free)</h4>
-    <p>A rich, spicy meat and bean delight</p>
-    <!-- <dl>
-      <dt><b>Country Vegetable</b> (vegan, gluten-free)</dt>
-      <dd>A medley of green beans, squash, and root vegetables that's perfect for bread-dipping</dd>
-      <dt><b>Beef Chili</b> (gluten-free)</dt>
-      <dd>A rich, spicy meat and bean delight</dd>
-    </dl> -->
-    <h2>Map</h2>
-    <a href="maps.html" title="Go to maps of service area and dining area - opens in a new window" target="_blank">Dining hall maps</a>
-    <div class="img"> <img src="img/Floor_Plan.png" alt="Cartoon map of food service area. Entering from the left of the picture, with the stations on your left, the first station is Chef's Table. Past that is the Rooted station, followed by Herb and Tomato, and finally Deep Bowl. Past this leads to the seating area, right along one of the long tables. There are two long tables running in parallel. Beneath that is a mezzanine with four square tables, accessed by a ramp to the far right."/></div>
-  </div>
-</div>
-</body>
+
+    <!-- Optional Javascript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
 </html>
