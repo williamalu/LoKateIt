@@ -31,6 +31,13 @@ html {
 	padding: 0;
 }
 
+.resize{
+	margin: 6px 0 16px 0;
+	padding: 0;
+	max-width:50%;
+	max-height: 50%;
+}
+
 .imgRight{
 	width:70%;
 	display: inline;
