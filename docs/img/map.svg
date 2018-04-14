@@ -1,0 +1,38 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" stroke-dasharray="5,5" id="svg_3" height="99" width="76" y="201.5" x="64.5" stroke-opacity="null" stroke-width="9" fill="#ffaa56"/>
+  <text stroke="#000" transform="matrix(0.3854595422744751,0,0,3.0740740299224854,50.39231753349304,-427.259250164032) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="228" x="82" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+  <text transform="rotate(-89.9325942993164 85.13281249999999,250.5) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_7" y="259" x="51" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Chef's</text>
+  <text transform="rotate(-88.31927490234375 113.50781249999996,252.49999999999997) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_8" y="261" x="85" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Table</text>
+  <rect stroke="#000" stroke-dasharray="5,5" id="svg_9" height="93.000001" width="76" y="102.499999" x="64.5" stroke-opacity="null" stroke-width="9" fill="#5fbf00"/>
+  <text transform="rotate(-89.9325942993164 101.6953125,147.5) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_10" y="156" x="63" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Rooted</text>
+  <rect stroke-dasharray="5,5" id="svg_11" height="75" width="109" y="26" x="169" stroke-opacity="null" stroke-width="9" stroke="#000" fill="#ff5656"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_12" y="59" x="173" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Herb and</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_13" y="87" x="182" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Tomato</text>
+  <rect stroke="#000" stroke-dasharray="5,5" id="svg_15" height="75" width="72.999996" y="26" x="283" stroke-opacity="null" stroke-width="9" fill="#ffff56"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_16" y="59" x="290" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Deep</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_17" y="85" x="293" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Bowl</text>
+  <rect stroke-dasharray="5,5" id="svg_18" height="114" width="36" y="160" x="385" stroke-opacity="null" stroke-width="9" stroke="#000" fill="#56ffff"/>
+  <text transform="rotate(89.57140350341797 404.3046875,218.00000000000003) " stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="20" id="svg_19" y="225" x="356" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Beverages</text>
+  <line transform="rotate(-90 432.00000000000006,149.99999999999997) " stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_25" y2="164" x2="432" y1="136" x1="432" stroke-width="15" fill="none"/>
+  <line transform="rotate(-90 432.00000000000006,32.99999999999998) " stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_26" y2="47" x2="432" y1="19" x1="432" stroke-width="15" fill="none"/>
+  <rect stroke="#000" id="svg_1" height="287.999989" width="364.999975" y="19.000011" x="60" stroke-width="15" fill="none"/>
+  <rect id="svg_20" height="89" width="30" y="48" x="409" stroke-width="15" stroke="#ffffff" fill="#ffffff"/>
+  <rect id="svg_21" height="23" width="179" y="297" x="172" stroke-width="15" stroke="#ffffff" fill="#ffffff"/>
+  <rect id="svg_27" height="27" width="133" y="319" x="223" stroke-opacity="null" stroke-width="3" stroke="#000" fill="#00bfbf"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="20" id="svg_28" y="339" x="235" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Swipe Table</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_22" y2="330" x2="159" y1="302" x1="159" stroke-width="15" stroke="#000000" fill="none"/>
+  <line stroke="#000000" stroke-linecap="null" stroke-linejoin="null" id="svg_24" y2="330" x2="364" y1="302" x1="364" stroke-width="15" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="20" id="svg_29" y="101" x="384" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">To Cafeteria</text>
+  <path transform="rotate(89.57034301757812 517.37744140625,94.22679138183601) " id="svg_32" d="m502.377471,94.172785l15,-22.445994l15,22.445994l-7.5,0l0,22.554l-14.999999,0l0,-22.554l-7.5,0z" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000"/>
+ </g>
+</svg>
